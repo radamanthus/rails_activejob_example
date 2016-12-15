@@ -57,3 +57,6 @@ gem 'sidekiq'
 
 # Resque
 gem 'resque'
+gem 'resque-scheduler'
+
+gem 'image_science'
