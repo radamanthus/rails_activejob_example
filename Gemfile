@@ -4,7 +4,6 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 # Use sqlite3 as the database for Active Record
-gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -59,4 +58,16 @@ gem 'sidekiq'
 # Resque
 gem 'resque'
 
-gem 'unicorn'
+
+gem 'bcrypt', '3.1.11'
+gem 'ffi','1.9.10'
+gem 'hitimes', '1.2.3'
+gem 'json', '1.8.3'
+gem 'kgio', '2.10.0'
+gem 'mysql2', '0.3.20'
+gem 'nokogiri', '1.6.8'
+gem 'pg', '0.18.4'
+gem 'raindrops', '0.16.0'
+gem 'rb-fsevent', '0.9.7'
+gem 'thread_safe', '0.3.5'
+gem 'unicorn', '5.1.0'
