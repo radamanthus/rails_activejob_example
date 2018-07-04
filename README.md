@@ -44,6 +44,12 @@ Sidekiq: https://github.com/mperham/sidekiq
 
 Redis: https://redis.io/
 
+## Exercises
+
+1) Add some ActiveRecord objects to the Rails application. Then create a new Sidekiq job class that loads an ActiveRecord object and updates it. How different is your new job class from EchoJob?
+
+2) Modify EchoJob to throw an exception every time it runs a job. Visit the Sidekiq dashboard in http://localhost:3000/sidekiq and rerun the job.
+
 ## Questions
 
 1) What are the performance characteristics of Redis that make it ideal for queue storage?
@@ -54,9 +60,4 @@ Hint: https://github.com/mperham/sidekiq/wiki/Error-Handling
 3) What happens if the Sidekiq worker process dies while running a job?
 Hint: https://github.com/mperham/sidekiq/wiki/Error-Handling#process-crashes
 
-## Exercises
-
-1) Add some ActiveRecord objects to the Rails application. Then create a new Sidekiq job class that loads an ActiveRecord object and updates it. How different is your new job class from EchoJob?
-
-2) Modify EchoJob to throw an exception every time it runs a job. Visit the Sidekiq dashboard in http://localhost:3000/sidekiq and rerun the job.
-
+4) What happens if Redis dies while Sidekiq is runnig jobs? What happens to the jobs?
