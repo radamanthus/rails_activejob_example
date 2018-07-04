@@ -39,7 +39,9 @@ bundle exec sidekiq
 ## Useful Links
 
 Rails ActiveJob: http://edgeguides.rubyonrails.org/active_job_basics.html
+
 Sidekiq: https://github.com/mperham/sidekiq
+
 Redis: https://redis.io/
 
 ## Questions
