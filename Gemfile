@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+gem 'rails', '~> 5.2.0'
 # Use sqlite3 as the database for Active Record
 gem 'pg'
 # Use Puma as the app server
@@ -36,7 +36,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'bundler', '1.13.7'
+  gem 'bundler', '~> 1.16.2'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
   gem 'listen', '~> 3.0.5'
@@ -54,7 +54,7 @@ gem 'delayed_job', '~> 4.1.2'
 gem 'delayed_job_active_record', '~> 4.1.1'
 
 # Sidekiq
-gem 'sidekiq'
+gem 'sidekiq', '~> 5.1.3'
 
 # Resque
 gem 'resque'
